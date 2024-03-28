@@ -12,8 +12,7 @@ Here is a list of a few projects that I've worked on
 *   Easy tool that has a dice feature as well as a text box function to save and keep track of story events.
 *   Written in Javascript using the P5.js libraries. 
 
-## Poller
-*   [](https://github.com/FernsReuben/Poller)
+## [Poller](https://github.com/FernsReuben/Poller)
 *   Abandoned due to hosting issues as it was a project done by cash strapped college students, but the github is still present.
 *   PHP and SQL based app representing a survey website that rewards surey takers with points which they can use to turn into real life prizes.
 *   Worked with large databases, where people's names, addresses, payment information were meant to be kept secure. 
