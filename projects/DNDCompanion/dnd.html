@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dice Roller</title>
+    <script src="dice.js" defer></script>
+</head>
+
+<body>
+    <p><a href="https://editor.p5js.org/bwh2009/full/FuNNbdyTC">Back To Home</a></p>
+    <div style="text-align: center">
+        <input type="checkbox" id="d4" onclick="d4f()">D4
+        <input type="checkbox" id="d6" onclick="d6f()">D6
+        <input type="checkbox" id="d8" onclick="d8f()">D8
+        <input type="checkbox" id="d10" onclick="d10f()">D10
+        <input type="checkbox" id="d12" onclick="d12f()">D12
+        <input type="checkbox" id="d20" onclick="d20f()" checked>D20
+        <input type="checkbox" id="d100" onclick="d100f()">D100
+        <input type="number" id="num" value="1" min="1">Amount
+        <input type="button" value="Roll" onclick="w()">
+    </div>
+    <div style="text-align: center">
+        <h1><p id="d"></p></h1>
+    </div>
+    
+    <!-- Text Editor -->
+    <div style="text-align: center; margin-top: 20px;">
+        <textarea id="noteEditor" rows="5" cols="50" placeholder="Write your notes here..."></textarea>
+        <br>
+        <button onclick="saveNotes()">Save</button>
+        <button onclick="copyToClipboard()">Copy</button>
+    </div>
+
+    <script>
+        // Function to save notes
+        function saveNotes() {
+            var notes = document.getElementById("noteEditor").value;
+            // Here, you can implement saving functionality using localStorage, database, etc.
+            // For example:
+            // localStorage.setItem("notes", notes);
+            alert("Notes saved!");
+        }
+
+        // Function to copy notes to clipboard
+        function copyToClipboard() {
+            var notes = document.getElementById("noteEditor").value;
+            navigator.clipboard.writeText(notes)
+                .then(function() {
+                    alert("Notes copied to clipboard!");
+                })
+                .catch(function(error) {
+                    console.error("Unable to copy notes: ", error);
+                    alert("Failed to copy notes to clipboard!");
+                });
+        }
+    </script>
+</body>
+
+</html>
