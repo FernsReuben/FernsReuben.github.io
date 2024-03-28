@@ -2,40 +2,25 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Projects
 
-[Link to another page](./another-page.html).
+Here is a list of a few projects that I've worked on
 
-There should be whitespace between paragraphs.
+## [DnD companion](./projects/DNDCompanion/dnd.html)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+*   Created to mostly help my Dungeons and Dragons campaigns. 
+*   Easy tool that has a dice feature as well as a text box function to save and keep track of story events.
+*   Written in Javascript using the P5.js libraries. 
 
-# [DnD companion](./projects/DNDCompanion/dnd.html).
+## Poller
+*   https://github.com/FernsReuben/Poller
+*   Abandoned due to hosting issues as it was a project done by cash strapped college students, but the github is still present.
+*   PHP and SQL based app representing a survey website that rewards surey takers with points which they can use to turn into real life prizes.
+*   Worked with large databases, where people's names, addresses, payment information were meant to be kept secure. 
+*   A lesson on security when designing databases. 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## StupidPong
 
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
 
 #### Header 4
 
